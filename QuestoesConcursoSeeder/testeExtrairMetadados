@@ -1,0 +1,9 @@
+import json
+from extratores.extrair_cabecalhos import extrair_cabecalhos_pagina_ocr, extrair_todos_cabecalhos_pdf
+
+caminho_pdf = "/home/viniciusdesktop/Documentos/Projetos/QuestoesConcursoSeeder/pdfquestoes.pdf"
+    
+cabecalhos = extrair_todos_cabecalhos_pdf(caminho_pdf)
+    
+print(f"\n[-] Total de cabeçalhos encontrados: {len(cabecalhos)}\n")
+print(json.dumps(cabecalhos[:20], indent=2, ensure_ascii=False))
