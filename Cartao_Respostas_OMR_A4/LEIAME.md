@@ -23,7 +23,7 @@ As questões são distribuídas sequencialmente em três colunas. Até 60 itens 
 
 ## Impressão e leitura óptica
 
-Imprima em A4 retrato, em **escala 100%**, sem “ajustar à página”. Preferencialmente use impressão simples, papel branco e sem bordas adicionadas pela impressora. Oriente o candidato a preencher uma única bolha por questão, completamente, sem tocar nos marcadores laterais.
+Imprima em A4 retrato, em **escala 100%**, sem “ajustar à página”. Preferencialmente use impressão simples, papel branco e sem bordas adicionadas pela impressora. Oriente o candidato a usar **exclusivamente caneta esferográfica preta** (não usar lápis) e preencher uma única bolha por questão, completamente, sem tocar nos marcadores laterais. Essa regra evita que a marcação seja facilmente apagada ou alterada.
 
 Os quatro quadrados pretos nos cantos são marcas de registro, 7 × 7 mm. Eles delimitam a folha e permitem estimar rotação e perspectiva. Cada linha de resposta também tem uma pequena barra preta de sincronismo. O JSON associado usa coordenadas em milímetros a partir do canto superior esquerdo e fornece a posição nominal de cada alternativa e cada marca; o algoritmo pode transformá-las para coordenadas da imagem depois de localizar os quatro fiduciais. A posição física real deve ser calibrada após digitalização de uma cópia impressa, pois impressoras e scanners podem introduzir pequenas variações.
 

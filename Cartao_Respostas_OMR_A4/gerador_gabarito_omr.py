@@ -153,7 +153,7 @@ def draw_instructions(c: canvas.Canvas) -> None:
                   fill=True, fill_color=colors.HexColor("#F5F5F5"))
     draw_text(c, SAFE_X + 2.5, top + 4.5, "INSTRUÇÕES", "Helvetica-Bold", 7.2)
     instructions = [
-        "Use lápis preto nº 2 ou caneta esferográfica preta. Preencha totalmente um único círculo por questão.",
+        "Use exclusivamente caneta esferográfica preta; não use lápis. Preencha totalmente um único círculo por questão.",
         "Não marque com X, traço ou círculo externo. Para corrigir, apague por completo; não faça rasuras.",
         "Não dobre, amasse ou escreva sobre as marcas pretas de referência e as trilhas laterais.",
     ]
